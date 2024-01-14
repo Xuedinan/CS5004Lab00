@@ -28,9 +28,6 @@ public class Animal{
 		this.skinColor = skinColor;
 	}		
 	
-	public Animal() {
-	}
-	
   /**
    * Return the name of this animal.
    *
