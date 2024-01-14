@@ -31,3 +31,8 @@ Semester: 2024 Spring
   - The last source I use very frequently is Google. Basically, I Google everything I wasn’t quite sure about and watch how other people resolve similar questions. Then I practice my own   method after careful thinking.
 
 :star:  **Weekly report**
+
+In the first week, I did a lot of exploring and troubleshooting while building my laptop configuration and Java environment. It's my first time using Eclipse and IntelliJ and I realized different IDE have their pros and cons.
+I learned how to organize Java projects through IDE and how to build and implement Junit test cases with industry-standard, it benefits any audience for my code for a long time, also including myself. By starting code Java, I think started to build concepts and get a peak on the OOD, everything code in Java is under Class and everything is an objective. It seems like a really fun programming mindset and more fit to the thinking logic of humans. 
+
+The expectation for incoming modules, I hope I could apply ODD method to build some executable projects, like small games, and systems, and create my own projects to help with my recent works. I try to make my submission more "user friendly" for the reviewer, hopefully, I could get grading in the range of 98-100. Thank you.
