@@ -14,7 +14,7 @@ import Animal.Animal;
  * A JUnit test class for the Animal class.
  * Create objective for Animal
  * test if we could get correct information from Animal class. 
- * Book should have name, age, skin color.
+ * Animal should have name, age, skin color.
  * 
  */
 
