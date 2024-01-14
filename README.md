@@ -6,10 +6,10 @@ Repository for CS5004 Lab00 assignment submission
 1. Person, Book Classes which is provided by course
    -  stored in src folder
 
-2. Test files for Person, Book Classes
+2. Test files for ##Person, Book Classes##
    - stored in test/TestFileLba0 folder
      
-3. Extension practice with Animal Class, Dog Class (inherit from Animal)
+3. Extension practice with ##Animal Class, Dog Class (inherit from Animal)##
    - stored in extensionPractice folder
    - test file is stored in folder testAnimal, DogTest
 
