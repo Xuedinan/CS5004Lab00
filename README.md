@@ -19,6 +19,9 @@ Semester: 2024 Spring
 4. All screenshots that are required in assignment
    - sotred in Screenshot folder
   
+5. Javadoc for all classes, inlcude **Person, Book, Animal, Dog**
+   - sotred in doc folder
+  
 ## Writing assignment
 
 :star:  **Additional support sources I found**
