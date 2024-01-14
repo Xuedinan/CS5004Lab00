@@ -2,7 +2,7 @@
 
 Repository for CS5004 Lab00 assignment submission\
 Name: Xuedinan(Dinan) Gao\
-Semester: 2024 Spring\
+Semester: 2024 Spring
 
 ### My submission include following directory/files
 
