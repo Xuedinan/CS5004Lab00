@@ -11,10 +11,10 @@ import Animal.Animal;
  * Assignment: CS5004 Lab0
  * Date: 01/13/2024
  * 
- * A JUnit test class for the Book class.
- * Create objective for book and person
- * test if we could get correct information from Book class. 
- * Book should have title, author, price.
+ * A JUnit test class for the Animal class.
+ * Create objective for Animal
+ * test if we could get correct information from Animal class. 
+ * Book should have name, age, skin color.
  * 
  */
 
