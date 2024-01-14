@@ -20,23 +20,23 @@ import Animal.Animal;
 
 public class AnimalTest {
 
-	Animal dog = new Animal("dog", 3, "white"); //create a animal with name dog, age 3 and skin color white
+	Animal monkey = new Animal("Monkey", 3, "white"); //create a animal with name monkey, age 3 and skin color white
 	
 	@Test
 	public void testName() {
-		String expected = dog.getName(); // test if we could get animal name as "dog"
-		assertEquals(expected, "dog");
+		String expected = monkey.getName(); // test if we could get animal name as "monkey"
+		assertEquals(expected, "Monkey");
 	}
 
 	@Test
 	public void testAge() {
-		int expected = dog.getAge(); // test if we could get animal age as 3
+		int expected = monkey.getAge(); // test if we could get animal age as 3
 		assertEquals(expected, 3);
 	}
 
 	@Test
 	public void testSkinColor() {
-		String expected = dog.getSkinColor(); // test if we could get skin color name as "white"
+		String expected = monkey.getSkinColor(); // test if we could get skin color name as "white"
 		assertEquals(expected, "white");
 	}
 
