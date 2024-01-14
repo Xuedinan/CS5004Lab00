@@ -19,7 +19,7 @@ Semester: 2024 Spring
 4. All screenshots that are required in assignment
    - sotred in Screenshot folder
   
-5. Javadoc for all classes, inlcude **Person, Book, Animal, Dog**
+5. Javadoc for all classes, inlcude **Person, Book, Animal, Dog** and their Junit test classes
    - sotred in doc folder
   
 ## Writing assignment
