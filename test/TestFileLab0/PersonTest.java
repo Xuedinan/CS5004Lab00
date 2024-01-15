@@ -23,28 +23,48 @@ public class PersonTest {
 
   private Person john; //create Person john
 
+/**
+ * create Person with first name John, last name Doe, year of birth 1989
+ *
+ */  
+ 
   @Before
   public void setUp() {
 
-    john = new Person("John", "Doe", 1989); //create Person with first name John, last name Doe, year of birth 1989
+    john = new Person("John", "Doe", 1989);
   }
 
+/**
+ * test if we could get john's first name
+ *
+ */ 
+ 
   @Test
   public void testFirst() {
-	  String expected = john.getFirstName(); //test if we could get john's first name
+	  String expected = john.getFirstName();
     assertEquals("John", expected);
 
   }
 
+/**
+ * test if we could get john's last name
+ *
+ */
+
   @Test
   public void testSecond() {
-	  String expected = john.getLastName(); //test if we could get john's last name
+	  String expected = john.getLastName();
     assertEquals("Doe", expected);
   }
 
+/**
+ * test if we could get john's birth of year
+ *
+ */
+
   @Test
   public void testYearOfBirth() {
-	  int expected = john.getYearOfBirth(); //test if we could get john's birth of year
+	  int expected = john.getYearOfBirth();
     assertEquals(1989, expected);
   }
 

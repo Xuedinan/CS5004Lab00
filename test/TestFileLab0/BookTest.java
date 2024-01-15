@@ -25,22 +25,37 @@ public class BookTest {
 	Book bk = new Book("Head First Object-Oriented Analysis and Design", // create book object with book title, price and author bt
 						bkAuthor, (float) 25.5);
 
+/**
+ * test if we could get book title
+ *
+ */ 	
+
 	@Test
 	public void testBookTitle() {
-		String expected = bk.getTitle(); // test if we could get book title
+		String expected = bk.getTitle();
 		assertEquals(expected, "Head First Object-Oriented Analysis and Design");
 	}
-	
+
+/**
+ * test if we could get author's first name
+ *
+ */	
+
 	@Test
-	public void testBookAuthor() { // test if we could get author's first name
+	public void testBookAuthor() { 
 		String expected = bkAuthor.getFirstName();
 		assertEquals(expected, "Dave");
 	}
+
+/**
+ * test price with floating point number
+ *
+ */
 	
 	@Test
 	public void testBookPrice() {
 		float expected = bk.getPrice();
-		assertEquals(expected, 25.5, 0.000001); // test price with floating point number
+		assertEquals(expected, 25.5, 0.000001); 
 	}
 	
 }

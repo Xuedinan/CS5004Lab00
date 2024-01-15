@@ -18,24 +18,45 @@ import Animal.Dog;
  * 
  */
 
+
+/**
+ * create a animal with name puppy, age 5 and skin color yellow
+ *
+ */
+
 public class DogTest {
-	Dog dog = new Dog("puppy", 5, "yellow"); //create a animal with name puppy, age 5 and skin color yellow
+	Dog dog = new Dog("puppy", 5, "yellow");
+
+	/**
+	 * test if we could get animal name as "puppy"
+	 *
+	 */	
 	
 	@Test
 	public void testName() {
-		String expected = dog.getName(); // test if we could get animal name as "puppy"
+		String expected = dog.getName();
 		assertEquals(expected, "puppy");
 	}
 
+	/**
+	 * test if we could get animal age as 5
+	 *
+	 */		
+
 	@Test
 	public void testAge() {
-		int expected = dog.getAge(); // test if we could get animal age as 5
+		int expected = dog.getAge();
 		assertEquals(expected, 5);
 	}
 
+	/**
+	 * test if we could get skin color name as "yellow"
+	 *
+	 */		
+
 	@Test
 	public void testSkinColor() {
-		String expected = dog.getSkinColor(); // test if we could get skin color name as "yellow"
+		String expected = dog.getSkinColor();
 		assertEquals(expected, "yellow");
 	}
 

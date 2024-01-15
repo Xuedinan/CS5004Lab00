@@ -18,7 +18,7 @@ public class Animal{
    *
    * @param name  the name to be given to this animal
    * @param age the age to be given to this animal
-   * @param price  the skin color to be given to this animal
+   * @param skinColor the skinColor to be given to this animal
    */
 
 

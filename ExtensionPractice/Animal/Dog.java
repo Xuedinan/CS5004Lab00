@@ -15,7 +15,7 @@ public class Dog extends Animal{
    *
    * @param name  the name to be given to this dog
    * @param age the age to be given to this dog
-   * @param price  the skin color to be given to this dog
+   * @param skinColor the skinColor to be given to this dog
    */
 
 	public Dog(String name, int age, String skinColor) {
