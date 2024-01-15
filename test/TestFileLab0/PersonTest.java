@@ -18,21 +18,15 @@ import lab00ExampleImport.Person;
  * Person should have first name, last name, year of birth
  */
 
-
-public class PersonTest {
-
-  private Person john; //create Person john
-
 /**
  * create Person with first name John, last name Doe, year of birth 1989
  *
  */  
- 
-  @Before
-  public void setUp() {
 
-    john = new Person("John", "Doe", 1989);
-  }
+public class PersonTest {
+
+    Person john = new Person("John", "Doe", 1989);
+ 
 
 /**
  * test if we could get john's first name
@@ -52,7 +46,7 @@ public class PersonTest {
  */
 
   @Test
-  public void testSecond() {
+  public void testLast() {
 	  String expected = john.getLastName();
     assertEquals("Doe", expected);
   }
